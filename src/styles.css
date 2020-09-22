@@ -1,0 +1,79 @@
+:root {
+    --main-orange: #d07400;
+    --main-orange2: #6358a4;
+    --light-orange: #fca54c;
+    --brown-shadow: #a15100;
+    --purple-text: #000000;
+}
+
+html {
+    background-color: var(--main-orange);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Cabin", sans-serif;
+    max-width: 600px;
+    min-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--light-orange);
+    border-radius: 12px;
+    box-shadow: 2px 2px var(--brown-shadow);
+    border: 2px solid black;
+    color: black;
+    /* position: relative; */
+}
+
+.main-contents {
+    padding: 1rem;
+}
+
+header,
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0px;
+    width: 100%;
+}
+
+header {
+    /* border-radius: 12px; */
+    border-bottom: 2px solid black;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 9px 9px 0px 0px;
+}
+
+.header-img-container {
+    width: 100%;
+    padding: 20px 0px;
+    background-color: var(--main-orange2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h4 {
+    color: var(--purple-text);
+    font-size: 0.9rem;
+    padding-top: 15px;
+    margin: 0px;
+    /* border-bottom: 2px solid var(--purple-text); */
+}
+
+img {
+    width: 200px;
+    height: "auto";
+}
+
+.privacy-policy-img {
+    margin-top: 5px;
+}
+
+.google-play-img {
+    width: 160px;
+    margin: auto;
+}
